@@ -12,7 +12,7 @@ pipeline {
             }
         }
         stage('Deploy') { 
-            compilation {
+            steps {
                 // 
             }
         }
